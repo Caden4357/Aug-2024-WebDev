@@ -24,10 +24,10 @@ const Nav = (props) => {
             <nav className='flex items-center justify-between flex-shrink'>
                 <h2 className='text-3xl underline'>Caden Wilcox</h2>
                 <ul className='lg:flex justify-between items-center w-2/6 hidden'>
-                    <li className='text-xl cursor-pointer hover:underline hover:text-gray-500'>Home</li>
-                    <li className='text-xl cursor-pointer hover:underline hover:text-gray-500'>About</li>
-                    <li className='text-xl cursor-pointer hover:underline hover:text-gray-500'>Projects</li>
-                    <li className='text-xl cursor-pointer hover:underline hover:text-gray-500'>Contact</li>
+                    <li className='text-md cursor-pointer hover:underline hover:text-gray-500'>Home</li>
+                    <li className='text-md cursor-pointer hover:underline hover:text-gray-500'>About</li>
+                    <li className='text-md cursor-pointer hover:underline hover:text-gray-500'>Projects</li>
+                    <li className='text-md cursor-pointer hover:underline hover:text-gray-500'>Contact</li>
                 </ul>
                 <div className='lg:hidden' onClick={toggleNav}>
                     <button className='border border-gray-500 p-1 rounded-lg'>

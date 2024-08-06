@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './components/Nav'
 import HeroSection from './components/HeroSection'
+import AboutMe from './components/AboutMe'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -11,6 +12,7 @@ function App() {
     <div className='border border-sky-500 w-full mx-auto'>
       <Nav/>
       <HeroSection/>
+      <AboutMe/>
     </div>
   )
 }
