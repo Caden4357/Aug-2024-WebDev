@@ -20,7 +20,7 @@ const Nav = (props) => {
         }
     })
     return (
-        <header className='p-2 w-3/4 mx-auto'>
+        <header className='p-2 w-3/4 mx-auto mt-3'>
             <nav className='flex items-center justify-between flex-shrink'>
                 <h2 className='text-3xl underline'>Caden Wilcox</h2>
                 <ul className='lg:flex justify-between items-center w-2/6 hidden'>
