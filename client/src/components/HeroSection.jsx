@@ -16,7 +16,7 @@ const HeroSection = (props) => {
         return () => clearTimeout(timer); // Clean up the timer on component unmount
     }, []);
     return (
-        <section className='flex lg:flex-row flex-col items-center mt-28 w-2/4 mx-auto'>
+        <section className='flex lg:flex-row flex-col items-center mt-36 w-2/4 mx-auto'>
             <div className='w-2/4'>
                 <img src={headshot} alt='headshot' className='rounded-full lg:w-3/4 mx-auto w-full' />
             </div>

@@ -20,11 +20,11 @@ const Nav = (props) => {
         }
     })
     return (
-        <header className='p-2 w-3/4 mx-auto mt-3'>
+        <header className='p-2 w-3/4 mx-auto mt-10'>
             <nav className='flex items-center justify-between flex-shrink'>
-                <h2 className='text-3xl underline'>Caden Wilcox</h2>
-                <ul className='lg:flex justify-between items-center w-2/6 hidden'>
-                    <li className='text-md cursor-pointer hover:underline hover:text-gray-500'>Home</li>
+                <h2 className='text-3xl font-semibold'>Caden Wilcox</h2>
+                <ul className='lg:flex justify-between items-center text-xl w-2/6 hidden font-semibold'>
+                    <li className='cursor-pointer hover:underline hover:text-gray-500'>Home</li>
                     <li className='text-md cursor-pointer hover:underline hover:text-gray-500'>About</li>
                     <li className='text-md cursor-pointer hover:underline hover:text-gray-500'>Projects</li>
                     <li className='text-md cursor-pointer hover:underline hover:text-gray-500'>Contact</li>
@@ -36,11 +36,11 @@ const Nav = (props) => {
                         </svg>
                     </button>
                 </div>
-                <ul className='mobile-nav bg-slate-200 w-3/4 text-center absolute top-14 hidden'>
-                    <li className='text-xl cursor-pointer hover:underline hover:text-gray-500'>Home</li>
-                    <li className='text-xl cursor-pointer hover:underline hover:text-gray-500'>About</li>
-                    <li className='text-xl cursor-pointer hover:underline hover:text-gray-500'>Projects</li>
-                    <li className='text-xl cursor-pointer hover:underline hover:text-gray-500'>Contact</li>
+                <ul className='mobile-nav bg-slate-200 w-3/4 text-xl text-center absolute top-14 hidden'>
+                    <li className='cursor-pointer hover:underline hover:text-gray-500'>Home</li>
+                    <li className='cursor-pointer hover:underline hover:text-gray-500'>About</li>
+                    <li className='cursor-pointer hover:underline hover:text-gray-500'>Projects</li>
+                    <li className='cursor-pointer hover:underline hover:text-gray-500'>Contact</li>
                 </ul>
             </nav>
         </header>

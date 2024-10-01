@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import placeholder from '../assets/placeholder.jpg';
+import lakeBeach from '../assets/lake-bench.jpg';
 import { IoRibbon } from "react-icons/io5";
 import { FaGraduationCap } from "react-icons/fa6";
 const AboutMe = (props) => {
@@ -7,9 +7,9 @@ const AboutMe = (props) => {
         <div className='pt-20 mt-20 mb-40'>
             <p className='text-center text-gray-400 '>Get To Know More</p>
             <h2 className='text-4xl text-center mt-2 font-bold'>About Me</h2>
-            <div className='flex justify-between items-center w-5/6 mx-auto lg:flex-row flex-col'>
-                <div>
-                    <img src={placeholder} alt='placeholder' className='rounded-3xl mx-auto mt-4 mb-6 shadow-2xl' />
+            <div className='flex justify-between items-center w-4/6 mx-auto lg:flex-row flex-col'>
+                <div className='w-2/4'>
+                    <img src={lakeBeach} alt='lakeBeach' className='rounded-3xl mx-auto mt-4 mb-6 shadow-2xl' />
                 </div>
                 <div className='w-3/4'>
                     <div className='flex lg:flex-row items-center justify-center gap-12 flex-col'>
